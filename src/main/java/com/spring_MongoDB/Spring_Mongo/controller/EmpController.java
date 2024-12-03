@@ -17,6 +17,7 @@ public class EmpController {
     @PostMapping
     public ResponseEntity<String> saveEmp(@RequestBody Employee employee){
         return ResponseEntity.ok().body(empService.saveEmp(employee));
+
     }
     @GetMapping("/get")
     public ResponseEntity<List<Employee>> getEmp(){

@@ -13,6 +13,7 @@ public class EmpService {
     private EmpRepo empRepo;
 
     public String saveEmp(Employee emp){
+
         empRepo.save(emp);
         return "Save Success";
     }
