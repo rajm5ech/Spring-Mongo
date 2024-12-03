@@ -10,3 +10,4 @@ public class AppConfiguration {
                 .getSchema( getClass().getResourceAsStream( SCHEMA_VALIDATION_FILE ) );
     }
 }
+https://www.mongodb.com/docs/manual/reference/method/Date/#:~:text=You%20can%20specify%20a%20particular,ISODate%20with%20the%20specified%20date.
